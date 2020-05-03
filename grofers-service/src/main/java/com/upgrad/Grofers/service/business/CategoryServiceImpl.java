@@ -21,6 +21,8 @@ public class CategoryServiceImpl implements CategoryService{
     public CategoryEntity getCategoryById(String categoryId) throws CategoryNotFoundException {
         return categoryDao.getCategoryById(categoryId);
     }
+    
+   
 
     /**
      * The method implements the business logic for getting all categories ordered by their name endpoint.
