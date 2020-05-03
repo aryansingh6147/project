@@ -35,7 +35,7 @@ public class AddressController {
      * @return - ResponseEntity<SaveAddressResponse> type object along with Http status CREATED.
      * @throws AuthorizationFailedException
      * @throws SaveAddressException
-     * @throws AddressNotFoundException
+     * @throws AddressNotFoundException///
      */
     @RequestMapping(method = RequestMethod.POST, path = "/address", consumes = MediaType.APPLICATION_JSON_UTF8_VALUE, produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
     public ResponseEntity<SaveAddressResponse> address(@RequestHeader("authorization") final String authorization, SaveAddressRequest saveAddressRequest) throws AuthorizationFailedException,SaveAddressException,AddressNotFoundException
