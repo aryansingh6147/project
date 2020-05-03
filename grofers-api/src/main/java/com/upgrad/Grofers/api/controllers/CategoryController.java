@@ -65,6 +65,7 @@ public class CategoryController {
             public int compare(CategoryEntity c1, CategoryEntity c2) {
                 return c1.getCategoryName().compareTo(c2.getCategoryName());
             }
+            
         };
         Collections.sort(categories, compareByCategoryName);
         CategoriesListResponse categoriesListResponse = new CategoriesListResponse();
