@@ -10,6 +10,7 @@
         <module name="grofers-service" />
         <module name="grofers-db" />
       </profile>
+      
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="grofers" target="1.8" />
