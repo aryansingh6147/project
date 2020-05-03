@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/grofers.iml" filepath="$PROJECT_DIR$/grofers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/grofers-api/grofers-api.iml" filepath="$PROJECT_DIR$/grofers-api/grofers-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/grofers-db/grofers-db.iml" filepath="$PROJECT_DIR$/grofers-db/grofers-db.iml" />
+      <module fileurl="file://$PROJECT_DIR$/grofers-service/grofers-service.iml" filepath="$PROJECT_DIR$/grofers-service/grofers-service.iml" />
+    </modules>
+  </component>
+</project>
