@@ -3,7 +3,6 @@ package com.upgrad.Grofers.service.dao;
 import com.upgrad.Grofers.service.entity.StoreEntity;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
-
 import javax.persistence.EntityManager;
 import javax.persistence.NoResultException;
 import javax.persistence.PersistenceContext;
