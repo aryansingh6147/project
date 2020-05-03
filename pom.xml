@@ -56,6 +56,4 @@
         <module>grofers-db</module>
         <module>grofers-service</module>
     </modules>
-
-
 </project>
